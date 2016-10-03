@@ -3,14 +3,14 @@ Quickscan API client written in PHP.
 
 ### Installation
 
-Install the API client through [Composer](http://getcomposer.org) with the follow command:
+Install the API client through [Composer](http://getcomposer.org) with the following command:
 
     composer require guardian360/quickscan-php-client
 
 The API client has a couple of requirements:
 
 - >= PHP 5.5
-- PHP cURL extensie
+- PHP cURL extension
 - GuzzleHttp library (automatically installed along with the Quickscan client)
 
 ### Usage
