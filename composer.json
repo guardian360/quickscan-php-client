@@ -2,11 +2,11 @@
     "name": "guardian360/quickscan-api-client",
     "description": "Guardian360 Quickscan API client class",
     "type": "package",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sjors van Dongen",
-            "email": "s.vandongen@intermax.nl"
+            "email": "s.vandongen@guardian360.nl"
         }
     ],
     "minimum-stability": "stable",
