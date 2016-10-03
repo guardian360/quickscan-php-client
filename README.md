@@ -22,17 +22,17 @@ The API client has a couple of requirements:
 require 'vendor/autoload.php';
 
 // Initialize a new API client
-$client = new Quickscan\Api\Client;
+$client = new Guardian360\Quickscan\Client;
 
 // URL to scan
-$url = 'http://sjorsvandongen.com';
+$url = 'http://example.com';
 
 // Example contact. These four fields are mandatory
 $contact = [
-    'company'   => 'Intermax',
-    'firstname' => 'Sjors',
-    'surname'   => 'van Dongen',
-    'email'     => 'sjors@intermax.nl',
+    'company'   => 'Acme',
+    'firstname' => 'John',
+    'surname'   => 'Doe',
+    'email'     => 'johndoe@example.com',
 ];
 
 // Login so we receive a JWT token. Password will be encoded
