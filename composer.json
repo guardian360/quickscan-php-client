@@ -1,5 +1,5 @@
 {
-    "name": "guardian360/quickscan-api-client",
+    "name": "guardian360/quickscan-php-client",
     "description": "Guardian360 Quickscan API client class",
     "type": "package",
     "license": "MIT",
