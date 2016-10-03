@@ -1,6 +1,6 @@
 <?php
 
-namespace Quickscan\Api;
+namespace Guardian360\Quickscan\Api;
 
 use GuzzleHttp\Client as HttpClient;
 
@@ -34,7 +34,10 @@ class Client
      */
     public function __construct()
     {
-        $this->httpClient = new HttpClient(['base_uri' => 'https://quickscan.guardian360.nl/api/v1/', 'exceptions' => false]);
+        $this->httpClient = new HttpClient([
+            'base_uri' => 'https://quickscan.guardian360.nl/api/v1/',
+            'exceptions' => false,
+        ]);
     }
 
     /**
