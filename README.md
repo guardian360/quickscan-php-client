@@ -22,7 +22,7 @@ The API client has a couple of requirements:
 require 'vendor/autoload.php';
 
 // Initialize a new API client
-$client = new Guardian360\Quickscan\Client;
+$client = new Guardian360\Quickscan\Api\Client;
 
 // URL to scan
 $url = 'http://example.com';
