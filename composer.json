@@ -1,0 +1,23 @@
+{
+    "name": "guardian360/quickscan-api-client",
+    "description": "Guardian360 Quickscan API client class",
+    "type": "package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sjors van Dongen",
+            "email": "s.vandongen@intermax.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*",
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quickscan\\API\\": "src"
+        }
+    }
+}
