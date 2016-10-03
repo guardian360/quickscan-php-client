@@ -36,12 +36,12 @@ $contact = [
 ];
 
 // Login so we receive a JWT token. Password will be encoded
-$client->login('test@example.nl', 'test');
+$client->login('johndoe@example.com', 'test');
 
 // Always call the scan method before sending a report!
-$result = $client->scan($url);
+$scanResults = $client->scan($url);
 
 // Send a report to the contact
-$result = $client->sendReport($url, $contact);
+$response = $client->sendReport($url, $contact);
 
 ```
